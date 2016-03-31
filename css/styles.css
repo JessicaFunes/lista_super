@@ -1,0 +1,47 @@
+*{
+	margin:0;
+}
+header{
+	background-color: white;
+	background-image: url(http://i33.tinypic.com/xaxao0.jpg)
+}
+nav {
+	margin: 0px;
+	background-color: white;
+}
+
+main {
+	width: 100%
+	height: 500px;
+}
+
+.border{
+	border: 5px; 
+}
+.fruta {/*mandas a llamar un class*/
+	width:200px;
+}
+/*comentarios en CSS*/
+#despensa {
+	width:150px;
+}/*mandas a llamar un id*/
+body {
+    background-image:url("https://45.media.tumblr.com/tumblr_mbzm748HwN1rvfz1co1_500.gif");
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}/*div es una caja*/
+section{
+	width:50%;
+}
+aside{
+	width:90%;
+}
+div {
+	display:inline-flex; /*Este contenedor va a estar a la misma altura que a sus hermanos*/
+ }
+
+
+
